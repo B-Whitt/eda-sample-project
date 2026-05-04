@@ -6,7 +6,7 @@
         port: 5000
   rules:
     - name: Webhook event
-      condition: event.payload.ping == "ping"
+      condition: event.payload.ping == "ping-ping"
       action:
         debug:
           msg: "Webhook triggered!"
